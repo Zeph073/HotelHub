@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_margin="20dp"
+    tools:context=".GoogleMapsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW OUR HOTELS WORLDWIDE"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#8260BF"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merika Hotel Google Maps is a mapping Service that allows users to search and view different Hotel locations worldwide.You Can Use the map to zoom in and out and move around to find the specific Hotels you are interested in."
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
