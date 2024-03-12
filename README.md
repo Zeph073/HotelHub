@@ -34,4 +34,4 @@ HotelHub is a feature-rich hotel application developed in Java, utilizing Fireba
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/HotelHub.git
+   git clone https://github.com/oluyalireuben/HotelHub.git
